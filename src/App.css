@@ -1,0 +1,88 @@
+body, html{
+  height: 100%;
+  background: url('C:\Users\MONSTER\Desktop\React\components\weather-app\src\images\depositphotos_90082314-stock-photo-blue-night-sky.jpg') ; 
+
+}
+.App {
+  text-align: center;
+   
+}
+
+.container{
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.weatherBox {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 350px;
+  background-color: rgb(33, 34, 39);
+  border-style:2px solid black;
+  border-radius: 5px;
+  
+}
+#a0{
+  border: groove;
+}
+#temp{
+  width: 300px;
+  height: 60px;
+  margin-top: 25px;
+  background-color:rgb(33, 34, 39);
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-around;
+  
+}
+#temp > span{
+  color: rgb(231, 226, 219) ;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px ;
+}
+
+.icon{
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(33, 34, 39);
+  margin-left: 75px;
+
+}
+.icon > img{
+  width: 150px;
+  height: 150px;
+}
+#cityName{
+  color: rgb(231, 226, 219);
+  margin: 10px 0px;
+  font-size: 20px;
+  font-style: oblique;
+  font-family:'Times';
+  
+
+}
+.day{
+  font-size: 16px;
+  color: rgb(231, 226, 219) ;
+}
+#head{
+  color: rgb(231, 226, 219) ;
+}
+#city select{
+  background-color:  rgb(231, 226, 219) ;
+  width: 200px;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  color: rgb(33, 34, 39) ;
+}
+#header{
+  margin-bottom: 120px;
+  margin-top: 100px;
+
+}
